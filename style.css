@@ -48,6 +48,10 @@ body {
   margin-bottom: 20px;
 }
 
+footer {
+  text-align: center;
+}
+
 @media (max-width: 375px) {
   .card {
     margin: 120px auto;
