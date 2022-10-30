@@ -11,16 +11,21 @@ body {
   font-size: 15px;
   line-height: 1.3;
   background: hsl(212, 45%, 89%);
+
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   max-width: 1400px;
-  margin: auto;
 }
 
 .card {
-  margin: 150px auto;
-  width: 350px;
+  max-width: 350px;
   background: #fff;
   border-radius: 20px;
   text-align: center;
@@ -46,10 +51,6 @@ body {
 .card-text {
   opacity: 0.6;
   margin-bottom: 20px;
-}
-
-footer {
-  text-align: center;
 }
 
 @media (max-width: 375px) {
